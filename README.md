@@ -5,10 +5,10 @@ Below are the instructions to run the tests.
 
 ## UI Tests
 
-To run the **UI tests**, use the following command:
+To run the tests, use the following command:
 ```bash
+for UI
 npm run ui
 
-To run the **API tests**, use the following command:
-```bash
+for API
 npm run api
