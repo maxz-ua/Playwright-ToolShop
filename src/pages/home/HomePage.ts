@@ -24,6 +24,7 @@ export class HomePage {
         await this.page.fill(HomeLocators.searchBar, text);
         await this.page.locator(HomeLocators.searchButton).waitFor({ state: 'visible' });
         await this.page.click(HomeLocators.searchButton);
+        await this.page.waitForTimeout(500);
     }
 
     async noResultsMessage(): Promise<Boolean> {
