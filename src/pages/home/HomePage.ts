@@ -8,6 +8,7 @@ export class HomePage {
         this.page = page;
     }
 
+
     async openPage() {
         await this.page.goto('/');
     }
@@ -24,7 +25,7 @@ export class HomePage {
         await this.page.fill(HomeLocators.searchBar, text);
         await this.page.locator(HomeLocators.searchButton).waitFor({ state: 'visible' });
         await this.page.click(HomeLocators.searchButton);
-        await this.page.waitForTimeout(500);
+        await this.page.waitForTimeout(500); // TODO change this to the normal way
     }
 
     async noResultsMessage(): Promise<Boolean> {
