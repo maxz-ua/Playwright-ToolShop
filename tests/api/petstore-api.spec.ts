@@ -1,8 +1,8 @@
-import { test, expect, request } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
 test.describe('Petstore API Tests', () => {
 
-    test('Get pet by status', async ({ request, baseURL }, testInfo) => {
+    test('Get pet by status', async ({ request, baseURL }) => {
         const response = await request.get(`${baseURL}/pet/findByStatus?status=available`, {
             headers: { 'X-Swagger-Coverage': 'true' }
         });
