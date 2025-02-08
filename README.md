@@ -3,12 +3,15 @@ This project uses Playwright to automate the testing of a web application and it
 
 Below are the instructions to run the tests.
 
-## UI Tests
+## To run the tests, and view the reports use the following commands:
 
-To run the tests, use the following command:
 ```bash
 for UI
 npm run ui
 
 for API
 npm run api
+
+for report
+npm run report
+
