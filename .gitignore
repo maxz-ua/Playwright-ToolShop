@@ -6,7 +6,6 @@
 /httpRequests/
 # Datasource local storage ignored files
 /dataSources/
-/dataSources.local.xml
 *.log
 .env
 .sass-cache
@@ -17,3 +16,4 @@
 dist/
 build/
 .idea/
+allure-results

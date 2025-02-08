@@ -2,6 +2,7 @@ import {defineConfig} from '@playwright/test';
 
 const config = defineConfig({
     testDir: './tests', // Test folder
+    reporter: [["line"], ["allure-playwright"]],
     timeout: 60000,
     fullyParallel: true, // Run all tests in parallel.
     projects: [
