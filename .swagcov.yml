@@ -1,0 +1,4 @@
+specPath: ./swagger.json
+reportDir: ./swagger-coverage
+format: html
+silent: false
