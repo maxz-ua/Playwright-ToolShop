@@ -10,9 +10,9 @@ const config = defineConfig({
             testDir: './tests/ui', // Path to your web tests directory
             use: {
                 // Web test configuration
-                headless: true, // Run tests in headless mode for web
+                headless: false, // Run tests in headless mode for web
                 browserName: 'chromium', // You can change this to 'firefox' or 'webkit' for other browsers
-                baseURL: 'https://example.com', // Base URL for web tests
+                baseURL: 'https://practicesoftwaretesting.com/', // Base URL for web tests
                 screenshot: 'only-on-failure', // Take screenshots on failure
              //   video: 'retain-on-failure', // Record videos for failing tests
             },
@@ -24,7 +24,7 @@ const config = defineConfig({
             use: {
                 headless: true,   // Run in headless mode for browsers
                 browserName: 'firefox',  // Use Firefox browser for this project
-                baseURL: 'https://example.com',  // Base URL for web tests
+                baseURL: 'https://practicesoftwaretesting.com/',  // Base URL for web tests
                 screenshot: 'only-on-failure',  // Screenshot on failure
               //  video: 'retain-on-failure',  // Record video on failure
             },

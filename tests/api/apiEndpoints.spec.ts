@@ -1,5 +1,5 @@
 import {test, expect, APIRequestContext} from '@playwright/test';
-import { getApiEndpoints } from '../../src/utils/swaggerParser';
+import { getApiEndpoints } from 'utils/swaggerParser';
 
 const apiEndpoints = getApiEndpoints();
 
